@@ -1,0 +1,89 @@
+/* ============================================
+   TEAPEAK — Design Tokens
+   ============================================ */
+
+:root {
+  /* — Foret (primary) — */
+  --forest-900: #1B3A2D;
+  --forest-700: #2D5E46;
+  --forest-500: #3E7E5E;
+  --forest-100: #D4E8DC;
+
+  /* — Bois (secondary) — */
+  --wood-900: #3D2B1F;
+  --wood-700: #6B4226;
+  --wood-400: #C4A265;
+  --wood-200: #E8D5B8;
+  --wood-100: #F5EDE0;
+
+  /* — Feu (CTA) — */
+  --fire-600: #C4572A;
+  --fire-500: #D96B3C;
+  --fire-300: #E8945A;
+
+  /* — Eau (winter) — */
+  --water-700: #1E5F8A;
+  --water-500: #3B8DBD;
+  --water-300: #8CC5E0;
+
+  /* — Neutres — */
+  --neutral-900: #1A1A18;
+  --neutral-500: #6B6B63;
+  --neutral-100: #FAF6F0;
+  --white: #FFFCF7;
+
+  /* — Warm effects — */
+  --glow-warm: rgba(196,162,101,.12);
+  --glow-warm-strong: rgba(196,162,101,.25);
+  --warm-white: #FFFCF7;
+  --warm-cream: #F5EDE0;
+
+  /* — Typography — */
+  --font-heading: 'Libre Baskerville', Georgia, 'Times New Roman', serif;
+  --font-body: 'Lato', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+
+  /* Modular scale 1.25 (base 16px) */
+  --text-xs: 0.64rem;    /* ~10px */
+  --text-sm: 0.8rem;     /* ~13px */
+  --text-base: 1rem;     /* 16px */
+  --text-md: 1.125rem;   /* 18px */
+  --text-lg: 1.25rem;    /* 20px */
+  --text-xl: 1.563rem;   /* 25px */
+  --text-2xl: 1.953rem;  /* 31px */
+  --text-3xl: 2.441rem;  /* 39px */
+  --text-4xl: 3.052rem;  /* 49px */
+  --text-5xl: 3.75rem;   /* 60px */
+
+  /* — Spacing (8px grid) — */
+  --space-1: 0.25rem;  /* 4 */
+  --space-2: 0.5rem;   /* 8 */
+  --space-3: 0.75rem;  /* 12 */
+  --space-4: 1rem;     /* 16 */
+  --space-5: 1.5rem;   /* 24 */
+  --space-6: 2rem;     /* 32 */
+  --space-8: 3rem;     /* 48 */
+  --space-10: 4rem;    /* 64 */
+  --space-12: 6rem;    /* 96 */
+
+  /* — Layout — */
+  --container-max: 1280px;
+  --container-narrow: 800px;
+  --section-py: var(--space-12);
+  --border-radius: 0.5rem;
+  --border-radius-lg: 1rem;
+
+  /* — Shadows (warm tones) — */
+  --shadow-sm: 0 1px 3px rgba(61,43,31,.08);
+  --shadow-md: 0 4px 12px rgba(61,43,31,.1);
+  --shadow-lg: 0 8px 30px rgba(61,43,31,.14);
+  --shadow-xl: 0 16px 48px rgba(61,43,31,.18);
+
+  /* — Grain texture overlay — */
+  --grain: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.03'/%3E%3C/svg%3E");
+
+  /* — Transitions — */
+  --ease-out: cubic-bezier(.22,1,.36,1);
+  --duration-fast: 200ms;
+  --duration-normal: 350ms;
+  --duration-slow: 600ms;
+}

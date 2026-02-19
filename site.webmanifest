@@ -1,0 +1,16 @@
+{
+  "name": "Teapeak — Retraite Nature Premium",
+  "short_name": "Teapeak",
+  "description": "Hebergement nature premium en montagne — chalets et tipis, restauration locale, bien-etre et activites outdoor.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F7F7F4",
+  "theme_color": "#1B3A2D",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
