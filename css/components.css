@@ -49,10 +49,9 @@
   background: transparent;
   color: var(--white);
   border-color: var(--white);
-  display: flex;
 }
 .btn--ghost:hover {
-  background: rgba(255,255,255,.12);
+  background: rgba(255, 255, 255, 0.12);
   color: var(--white);
   transform: translateY(-2px);
 }
@@ -78,8 +77,9 @@
   background: var(--white);
   border-radius: var(--border-radius-lg);
   overflow: hidden;
-  transition: transform var(--duration-normal) var(--ease-out),
-              box-shadow var(--duration-normal) var(--ease-out);
+  transition:
+    transform var(--duration-normal) var(--ease-out),
+    box-shadow var(--duration-normal) var(--ease-out);
   box-shadow: var(--shadow-sm);
 }
 
@@ -252,7 +252,7 @@
 
 .feature-list .icon-cross {
   color: var(--neutral-500);
-  opacity: .4;
+  opacity: 0.4;
   flex-shrink: 0;
 }
 
@@ -279,18 +279,19 @@
 .form-group textarea {
   width: 100%;
   padding: 0.75rem 1rem;
-  background: rgba(255,255,255,.08);
-  border: 2px solid rgba(255,255,255,.15);
+  background: rgba(255, 255, 255, 0.08);
+  border: 2px solid rgba(255, 255, 255, 0.15);
   border-radius: var(--border-radius);
   color: var(--white);
   font-size: var(--text-base);
-  transition: border-color var(--duration-fast) var(--ease-out),
-              box-shadow var(--duration-fast) var(--ease-out);
+  transition:
+    border-color var(--duration-fast) var(--ease-out),
+    box-shadow var(--duration-fast) var(--ease-out);
 }
 
 .form-group input::placeholder,
 .form-group textarea::placeholder {
-  color: rgba(255,255,255,.4);
+  color: rgba(255, 255, 255, 0.4);
 }
 
 .form-group input:focus,
@@ -298,7 +299,7 @@
 .form-group textarea:focus {
   outline: none;
   border-color: var(--forest-500);
-  box-shadow: 0 0 0 3px rgba(62,126,94,.3);
+  box-shadow: 0 0 0 3px rgba(62, 126, 94, 0.3);
 }
 
 .form-group select option {
@@ -336,7 +337,7 @@
 
 /* ---- Accordion ---- */
 .accordion-item {
-  border-bottom: 1px solid rgba(27,58,45,.1);
+  border-bottom: 1px solid rgba(27, 58, 45, 0.1);
 }
 
 .accordion-item summary {
@@ -356,7 +357,7 @@
 }
 
 .accordion-item summary::after {
-  content: '';
+  content: "";
   width: 24px;
   height: 24px;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' fill='none' stroke='%231B3A2D' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
@@ -383,7 +384,7 @@
   flex-direction: column;
   align-items: center;
   gap: var(--space-2);
-  color: rgba(255,255,255,.7);
+  color: rgba(255, 255, 255, 0.7);
   font-size: var(--text-sm);
   letter-spacing: 0.1em;
   text-transform: uppercase;
@@ -396,11 +397,22 @@
 }
 
 @keyframes bounce {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(8px); }
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(8px);
+  }
 }
 
 @keyframes fadeUp {
-  from { opacity: 0; transform: translateY(16px); }
-  to   { opacity: 1; transform: translateY(0); }
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }

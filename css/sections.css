@@ -37,6 +37,10 @@
   font-size: var(--text-xl);
 }
 
+a.navbar__logo:hover {
+  color: var(--forest-200);
+}
+
 .navbar__logo svg {
   width: 36px;
   height: 36px;
@@ -311,6 +315,7 @@
   background: var(--forest-900);
   color: var(--white);
   overflow: hidden;
+  text-align: center;
 }
 
 .restaurant__bg {
@@ -323,7 +328,7 @@
 .restaurant__content {
   position: relative;
   z-index: 1;
-  max-width: 600px;
+  /* max-width: 100%; */
 }
 
 .restaurant__content h2 {
@@ -335,6 +340,7 @@
   color: rgba(255,255,255,.75);
   margin-bottom: var(--space-6);
   line-height: 1.8;
+  margin: 0 auto;
 }
 
 .restaurant__highlights {
@@ -344,9 +350,9 @@
   margin-bottom: var(--space-8);
 }
 
-.restaurant__highlight {
+/* .restaurant__highlight {
   text-align: center;
-}
+} */
 
 .restaurant__highlight .card__icon {
   margin-inline: auto;
@@ -364,6 +370,8 @@
 .restaurant__highlight p {
   font-size: var(--text-sm);
   color: rgba(255,255,255,.6);
+  text-align: center;
+  /* margin: 0 auto; */
 }
 
 /* ---- Temoignages ---- */
