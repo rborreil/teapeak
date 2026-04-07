@@ -231,6 +231,12 @@ a.navbar__logo:hover {
   background: var(--white);
 }
 
+.concept .btn {
+    display: block;
+  margin: 0 auto;
+  width: fit-content;
+}
+
 /* ---- Hebergements ---- */
 .hebergements {
   background: var(--neutral-100);
@@ -250,6 +256,12 @@ a.navbar__logo:hover {
   width: 100%;
   height: 400px;
   object-fit: cover;
+}
+
+.hebergements__content .btn {
+  display: block;
+  margin: 0 auto;
+  width: fit-content;
 }
 
 .hebergements__content h3 {
@@ -340,6 +352,9 @@ a.navbar__logo:hover {
   color: rgba(255,255,255,.75);
   margin-bottom: var(--space-6);
   line-height: 1.8;
+}
+
+.restaurant__content p:nth-child(3) {
   margin: 0 auto;
 }
 
@@ -349,10 +364,6 @@ a.navbar__logo:hover {
   gap: var(--space-5);
   margin-bottom: var(--space-8);
 }
-
-/* .restaurant__highlight {
-  text-align: center;
-} */
 
 .restaurant__highlight .card__icon {
   margin-inline: auto;
@@ -371,7 +382,6 @@ a.navbar__logo:hover {
   font-size: var(--text-sm);
   color: rgba(255,255,255,.6);
   text-align: center;
-  /* margin: 0 auto; */
 }
 
 /* ---- Temoignages ---- */
@@ -499,6 +509,7 @@ a.navbar__logo:hover {
 .trust-badge__label {
   font-size: var(--text-sm);
   color: var(--neutral-500);
+  margin: 0 auto;
 }
 
 /* ---- Tarifs ---- */
@@ -518,6 +529,7 @@ a.navbar__logo:hover {
   border-radius: var(--border-radius-lg);
   padding: var(--space-8) var(--space-6);
   text-align: center;
+  margin-inline: auto;
   box-shadow: var(--shadow-sm);
   position: relative;
   transition: transform var(--duration-normal) var(--ease-out),
